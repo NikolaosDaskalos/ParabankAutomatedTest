@@ -1,15 +1,14 @@
-package onlineservices;
+package com.parasoft.onlineservices;
 
 import com.parasoft.Browser;
 import com.parasoft.pages.Pages;
 
-public class BillPay {
-
+public class AccountHistory {
     static String url= "https://parabank.parasoft.com/parabank/services/bank?_wadl&_type=xml";
 
-    public void clickBillPayText(){
+    public void clickAccountHistoryText(){
         Pages.homePage().goTo();
-        Browser.billPay();
+        Browser.accountHistory();
     }
 
     public boolean isAt(){

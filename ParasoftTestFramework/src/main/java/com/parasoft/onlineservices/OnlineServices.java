@@ -1,4 +1,4 @@
-package onlineservices;
+package com.parasoft.onlineservices;
 
 public class OnlineServices {
 

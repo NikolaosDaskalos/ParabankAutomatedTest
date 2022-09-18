@@ -1,4 +1,4 @@
-package onlineservices;
+package com.parasoft.onlineservices;
 
 import com.parasoft.Browser;
 import com.parasoft.pages.Pages;
