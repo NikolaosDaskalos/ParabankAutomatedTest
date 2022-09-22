@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 22 18:17:52 EEST 2022","Thu Sep 22 18:17:54 EEST 2022","2345","","ATM Services Homepage Menu","","com.parasoft.AtmServicesTest","checkBalances","Check Balances link text","TesHome page click Check Balances link text from ATM services menu"
+"passed","Thu Sep 22 18:17:42 EEST 2022","Thu Sep 22 18:17:48 EEST 2022","5574","","ATM Services Homepage Menu","","com.parasoft.AtmServicesTest","transferFunds","Transfer Funds link text","TesHome page click Transfer Funds link text from ATM services menu"
+"passed","Thu Sep 22 18:17:50 EEST 2022","Thu Sep 22 18:17:52 EEST 2022","2037","","ATM Services Homepage Menu","","com.parasoft.AtmServicesTest","withdrawalFunds","Withdraw Funds link text","Home page click Withdraw Funds link text from ATM services menu"
+"passed","Thu Sep 22 18:17:48 EEST 2022","Thu Sep 22 18:17:50 EEST 2022","1945","","ATM Services Homepage Menu","","com.parasoft.AtmServicesTest","makeDeposits","Make Deposits link text","TesHome page click Make Deposits link text from ATM services menu"

@@ -1,13 +1,18 @@
 package com.parasoft;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import io.qameta.allure.Allure;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.io.ByteArrayInputStream;
 
 public class Browser {
     static WebDriver driver;
     public static void startUp(){driver = new ChromeDriver();}
+
+    public static void takeScreenShot(String name) {
+        Allure.addAttachment(name, new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES) ));
+    }
 
     public static void goTo(String url){
         driver.get(url);

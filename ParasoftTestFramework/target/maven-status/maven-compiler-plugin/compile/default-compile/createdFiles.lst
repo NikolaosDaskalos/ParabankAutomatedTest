@@ -4,6 +4,7 @@ com/parasoft/menu/ServicesMenu.class
 com/parasoft/atmservices/MakeDeposits.class
 com/parasoft/onlineservices/TransferFundsOnlineServices.class
 com/parasoft/onlineservices/BillPay.class
+com/parasoft/screenshot/ScreenShot.class
 com/parasoft/footerpanel/ProductsTextFooter.class
 com/parasoft/pages/AboutUsPage.class
 com/parasoft/menu/AboutUsMenu.class
